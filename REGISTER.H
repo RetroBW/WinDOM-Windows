@@ -1,0 +1,1 @@
+#define REGISTERED 1

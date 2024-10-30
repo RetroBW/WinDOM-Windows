@@ -1,0 +1,10 @@
+[MSVC Status File]
+Version=1.00
+ProjectType=10
+External=0
+BrkptCount=0
+WatchCount=4
+WatchExpr1=hi_name[9]
+WatchExpr2=temp_name
+WatchExpr3=i
+WatchExpr4=NameDialog.m_Name

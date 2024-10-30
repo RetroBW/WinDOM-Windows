@@ -1,0 +1,36 @@
+[infofile]
+	filename = README
+	appname  = WinDom
+	exefile  = WinDom.exe
+	message  = "Would you like to play WinDom Now?"
+
+[dialog]
+    caption = "WinDom Installation"
+
+[data]
+    defdir = C:\WINDOM
+
+[disks]
+    1 =., "INSTALL"
+
+[needed.space]
+    minspace = 97000
+
+[dest.directories]
+    #app.main,    0:
+    #app.SETUPSYSDIR,    0:SETUPSYSDIR
+
+[app.main]
+    1:WinDom.exe,	"Application Configuration File"
+    1:WinDom.HLP,	"Application Help File"
+
+[app.SETUPSYSDIR]
+    1:README,		"Readme File"
+    1:CTL3D.DLL,        "3D Dynamic Link Library"
+
+[progman.groups]
+    Games, Games.GRP
+
+[Games]
+    "WinDom", WinDom.exe
+    "WinDom Help", WinDom.hlp

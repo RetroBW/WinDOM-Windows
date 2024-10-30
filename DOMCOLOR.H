@@ -1,0 +1,12 @@
+#define COLOR0 255,0,0
+#define COLOR1 255,255,0
+#define COLOR2 0,0,255
+#define COLOR3 255,0,255
+#define COLOR4 0,255,255
+#define COLOR5 0,255,0
+#define COLOR6 255,255,255
+#define COLOR7 192,192,192
+#define COLOR8 164,200,240
+#define COLOR9 255,0,128
+#define COLOR10 64,0,128
+#define COLOR11 128,64,0
